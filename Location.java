@@ -4,7 +4,7 @@ public class Location {
 
     public String toString() 
     {
-        return theRow+", "+theCol;
+        return theRow + ", " + theCol;
     }
 
     public Location(int r, int c) {
