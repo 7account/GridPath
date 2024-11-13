@@ -33,7 +33,7 @@ public class GridPath {
         {
             below = grid[row+1][col];
         }
-        int right = Integer.MIN_VALUE;
+        int right = Integer.MAX_VALUE;
         if (col < grid[0].length-1)
         {
             right = grid[row][col+1];
@@ -59,6 +59,7 @@ public class GridPath {
             row = loc.getRow();
             col=loc.getCol();
             sum+=grid[row][col];
+            System.out.println(sum);
         }
         return sum;
         /* to be implemented in part (b) */ }
