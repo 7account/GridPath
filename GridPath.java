@@ -59,7 +59,6 @@ public class GridPath {
             row = loc.getRow();
             col=loc.getCol();
             sum+=grid[row][col];
-            System.out.println(sum);
         }
         return sum;
         /* to be implemented in part (b) */ }
